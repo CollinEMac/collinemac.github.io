@@ -1,1 +1,22 @@
-Hello World
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Percentage App</title>
+  </head>
+  <body>
+    <h1>Get your first number as a percentage of your second number...</h1>
+    <label>First Number</label>
+    <input id="first_number" type="number" step="any"></input> <br/>
+
+    <label>Second Number</label>
+    <input id="second_number" type="number" step="any"></input><br/>
+
+    <input type="button" value="Calculate!" onclick="calculate()"/><br/>
+    <input type="button" value="Clear!" onclick="window.location.reload(true)"/><br/>
+
+    <div id="result"></div>
+    <script src="calculate.js">
+    </script>
+  </body>
+</html>
